@@ -1,0 +1,14 @@
+ETL Wiz Roadmap
+
+This is obviously very high-level, and there'll doubtless be lots of bug-fixes
+along the way.
+
+<0.1: still coding - do not attempt to use!
+
+0.1: Extract from CSV and write to one or more CSV.  Simple mapping language
+     (probably just column assignment and maybe NULL-mapping to begin with).
+     Get basic code implemented and working.
+0.2: Extract from CSV and write to MySQL.
+0.3: Enhance mapping language to that described in mapping_language.txt
+0.4: Extract from MySQL and write to MySQL.
+0.5: Extract from Postgres and write to MySQL, and vice-versa
