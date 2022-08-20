@@ -21,6 +21,29 @@
 #define ETL_TOK_NULL             11
 #define ETL_TOK_ERROR            12
 #define ETL_TOK_DONE             13
+#define ETL_TOK_IDENTIFIER       14
+
+#define ETL_TOK_NOT              15
+#define ETL_TOK_AND              16
+#define ETL_TOK_CASE             17
+#define ETL_TOK_CONCAT           18
+#define ETL_TOK_OR               19
+#define ETL_TOK_CLENGTH          20
+#define ETL_TOK_DEFAULT          21
+#define ETL_TOK_IF               22
+#define ETL_TOK_IFNULL           23
+#define ETL_TOK_IFEMPTY          24
+#define ETL_TOK_IN               25
+#define ETL_TOK_INSTR            26
+#define ETL_TOK_ISNOTEMPTY       27
+#define ETL_TOK_ISEMPTY          28
+#define ETL_TOK_ISNOTNULL        29
+#define ETL_TOK_ISNULL           30
+#define ETL_TOK_LENGTH           31
+#define ETL_TOK_LIKE             32
+#define ETL_TOK_LOWER            33
+#define ETL_TOK_SUBSTR           34
+#define ETL_TOK_UPPER            35
 
 /*
  * We try hard to keep ETL_LexInfo an integral value

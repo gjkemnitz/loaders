@@ -1,0 +1,13 @@
+The first version of the etl mapping language will be a LISP-ish language
+
+Why?  Because they're super-easy to parse.
+Depending on how things go, I may or may not do an infix form of the
+language later.
+
+Functions will be of the form 
+
+(func_name arg1 arg2 ... argN)
+
+with args being literals, variables, or (expressions)
+
+
